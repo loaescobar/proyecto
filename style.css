@@ -1,0 +1,361 @@
+
+body{
+    background-color: rgba(42, 23, 55, 0.400);
+}
+
+li{
+    list-style: none;
+}
+/* ==============================header=================================== */
+.color{
+    background-color:rgba(42, 23, 55, 0.900);
+
+}
+.color-font{
+    color: white;
+}
+
+.color-dropdown{
+    background-color: rgba(42, 23, 55, 0.400);
+
+}
+
+
+.color-boton{
+    background-color: #2a1737;
+    color: white;
+}
+
+.btn:hover{
+    color:white ;
+
+}
+.fondo-btn{
+    background-color: rgb(87, 87, 87);
+}
+
+
+/* fin del header */
+/*=============================inicio section=========================*/
+
+/* estilo cards */
+
+.imagenes{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.img-one:hover{
+    box-shadow: 5px 5px  20px rgba(6, 6, 6, 0.4);
+    transform: translatey(-3%);
+}
+
+.img-two:hover{
+    box-shadow: 5px 5px  20px rgba(6, 6, 6, 0.4);
+    transform: translatey(-3%);
+}
+
+.img-three:hover{
+    box-shadow: 5px 5px  20px rgba(6, 6, 6, 0.4);
+    transform: translatey(-3%);
+}
+
+.grid-cards{
+    width: 100%;
+}
+/* banner */
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)),
+    url(img/banner.avif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    height: 400px;
+}
+
+h2 {
+    font-size: 5vw;
+}
+
+p {
+    font-size: 2vw;
+}
+
+.text-color-ff {
+    color: rgb(214, 214, 214);
+}
+/* fin del banner */
+
+.sub-paquetes{
+    background-color: #2a1737;
+    color: white;
+    text-align: center;
+}
+
+/* utilizando grid en loas parrafos */
+
+.con-grid{
+
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 1em;
+
+}
+
+.grid-one{
+    background-color: rgba(77, 76, 78, 0.400);
+    text-align: center;
+    border: solid black 1px;
+
+
+}
+.grid-two{
+    background-color: rgba(77, 76, 78, 0.400);
+    text-align: center;
+    border: solid black 1px;
+
+}
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 767px) {
+    .con-grid {
+      display: block;
+    }
+    .grid-one,
+    .grid-two {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 30px;
+    }
+  }
+
+  /* Estilos para tabletas */
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .grid-one,
+    .grid-two {
+      width: 100%;
+      margin-right: 30px;
+      margin-bottom: 30px;
+    }
+    .grid-two {
+      margin-right: 0;
+    }
+  }
+
+  /* Estilos para pantallas grandes */
+  @media screen and (min-width: 992px) {
+    .grid-one,
+    .grid-two {
+      width: 50%;
+      margin-right: 30px;
+      margin-bottom: 0;
+    }
+    .grid-two {
+      margin-right: 0;
+    }
+    .con-grid {
+      display: flex;
+    }
+  }
+
+
+
+
+/* ===================================footer======================= */
+
+/* footer con chat gpt */
+footer {
+    background-color:rgba(77, 76, 78, 0.700);
+    color: #fff;
+    padding: 30px 0;
+  }
+
+  footer h3 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  footer p {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  footer ul {
+    list-style: none;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1em;
+  }
+
+  .social-icons li {
+    margin: 0 10px;
+  }
+
+
+  @media (max-width: 767px) {
+    footer {
+      text-align: center;
+    }
+
+    .social-icons {
+      margin-top: 20px;
+      justify-content: center;
+    }
+
+    .col-md-6 {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  }
+
+
+.link-wpp, .link-insta, .link-mail{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.icono {
+    width: 30px;
+}
+
+.icono:hover{
+    transform: translatey(-10%);
+}
+
+
+
+
+/* ===============================PAGINA CONOCENOS================================= */
+
+/*conocenos style*/
+.mapa{
+    display: flex;
+    justify-content: center;
+}
+.p-conocenos{
+    
+    margin: 0 2em;
+}
+
+/* ================================salta================================ */
+
+/* carrousel */
+.carousel-inner{
+    max-height: 20rem;
+}
+
+.banner-salta{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)),
+    url(img/salta1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    height: 300px;
+
+}
+
+.formulario{
+    background-color: rgba(77, 76, 78, 0.400);
+    margin-bottom: 2em;
+}
+
+.lista-formulario{
+    background-color: white;
+    border-radius: 0.3rem;
+    padding: 0.3em;
+}
+
+/* ====================================jujuy=================================== */
+.carousel-inner{
+    max-height: 20rem;
+}
+
+.banner-jujuy{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)),
+    url(img/jujuy3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    height: 300px;
+
+}
+/* ====================================mendoza=================================== */
+.carousel-inner{
+    max-height: 20rem;
+}
+
+.banner-mendoza{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)),
+    url(img/mendoza1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    height: 300px;
+
+}
+
+
+/* ===============================cordoba=================================== */
+.carousel-inner{
+    max-height: 20rem;
+}
+
+.banner-cordoba{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)),
+    url(img/cordoba4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    height: 300px;
+
+}
+
+/* ===============================santa cruz=================================== */
+.carousel-inner{
+    max-height: 20rem;
+}
+
+.banner-santacruz{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)),
+    url(img/santacruz1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    height: 300px;
+
+}
+
+/* ===============================tierra del fuego=================================== */
+.carousel-inner{
+    max-height: 20rem;
+}
+
+.banner-tierradelfuego{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)),
+    url(img/tierradelfuego1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    height: 300px;
+
+}
+
+
