@@ -131,7 +131,7 @@ p {
     }
   }
 
-  /* Estilos para tabletas */
+  /* estilos para pantallas medianas */
   @media screen and (min-width: 768px) and (max-width: 991px) {
     .grid-one,
     .grid-two {
@@ -165,7 +165,7 @@ p {
 
 /* ===================================footer======================= */
 
-/* footer con chat gpt */
+/* footer */
 footer {
     background-color:rgba(77, 76, 78, 0.700);
     color: #fff;
