@@ -1,0 +1,68 @@
+/* ===================================footer======================= */
+@import "../base/extend";
+/* footer */
+footer {
+    background-color:nth($colores-generales, 3 );
+    color:nth($colores-generales, 2 );
+    padding: 30px 0;
+  }
+
+  footer h3 {
+    color:nth($colores-generales, 2 );
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  footer p {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  footer ul {
+    list-style: none;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1em;
+  }
+
+  .social-icons li {
+    margin: 0 10px;
+  }
+
+
+  @media (max-width: 767px) {
+    footer {
+      text-align: center;
+    }
+
+    .social-icons {
+      margin-top: 20px;
+      justify-content: center;
+    }
+
+    .col-md-6 {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  }
+
+
+.link-wpp, .link-insta, .link-mail{
+
+    @extend %dflex-iconos
+}
+
+
+.icono {
+    width: 30px;
+}
+
+.icono:hover{
+    transform: translatey(-10%);
+}

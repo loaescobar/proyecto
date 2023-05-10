@@ -1,0 +1,15 @@
+
+body{
+    background-color: rgba(42, 23, 55, 0.400);
+}
+
+li{
+    list-style: none;
+}
+
+@import "components/header-index";
+@import "components/section-index";
+@import "components/footer-index";
+@import "components/conocenos";
+@import "base/listas";
+@import "base/extend"

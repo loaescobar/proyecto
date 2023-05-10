@@ -1,0 +1,121 @@
+/*=============================inicio section=========================*/
+
+/* estilo cards */
+@import "../base/extend";
+
+.imagenes{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.img-one:hover{
+    @extend %cards-hover;
+}
+
+.img-two:hover{
+    @extend %cards-hover;
+}
+
+.img-three:hover{
+    @extend %cards-hover;
+}
+
+.grid-cards{
+    width: 100%;
+}
+/* banner */
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)),
+    url(../../img/banner.avif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    height: 400px;
+}
+
+h2 {
+    font-size: 5vw;
+}
+
+p {
+    font-size: 2vw;
+}
+
+.text-color-ff {
+    color: nth($colores-generales, 2 );
+    
+}
+/* fin del banner */
+
+.sub-paquetes{
+    background-color:nth($colores-generales, 1 );
+    color: nth($colores-generales, 2 );
+    text-align: center;
+}
+
+/* utilizando grid en loas parrafos */
+
+.con-grid{
+
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 1em;
+
+}
+
+.grid-one{
+    @extend %parrafos-grid;
+
+
+}
+.grid-two{
+    @extend %parrafos-grid;
+
+}
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 767px) {
+    .con-grid {
+      display: block;
+    }
+    .grid-one,
+    .grid-two {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 30px;
+    }
+  }
+
+  /* estilos para pantallas medianas */
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .grid-one,
+    .grid-two {
+      width: 100%;
+      margin-right: 30px;
+      margin-bottom: 30px;
+    }
+    .grid-two {
+      margin-right: 0;
+    }
+  }
+
+  /* Estilos para pantallas grandes */
+  @media screen and (min-width: 992px) {
+    .grid-one,
+    .grid-two {
+      width: 50%;
+      margin-right: 30px;
+      margin-bottom: 0;
+    }
+    .grid-two {
+      margin-right: 0;
+    }
+    .con-grid {
+      display: flex;
+    }
+  }
+
+
+

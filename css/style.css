@@ -1,0 +1,241 @@
+@charset "UTF-8";
+body {
+  background-color: rgba(42, 23, 55, 0.4);
+}
+
+li {
+  list-style: none;
+}
+
+.color {
+  background-color: rgba(42, 23, 55, 0.9);
+}
+
+.color-font {
+  color: white;
+}
+
+.color-dropdown {
+  background-color: rgba(42, 23, 55, 0.9);
+}
+
+.color-boton {
+  background-color: rgba(42, 23, 55, 0.9);
+  color: white;
+}
+
+.btn:hover {
+  color: white;
+}
+
+.fondo-btn {
+  background-color: rgb(87, 87, 87);
+}
+
+/*=============================inicio section=========================*/
+/* estilo cards */
+.img-three:hover, .img-two:hover, .img-one:hover {
+  box-shadow: 5px 5px 20px rgba(6, 6, 6, 0.4);
+  transform: translatey(-3%);
+}
+
+.grid-two, .grid-one {
+  background-color: rgba(77, 76, 78, 0.4);
+  text-align: center;
+  border: solid black 1px;
+}
+
+.link-wpp, .link-insta, .link-mail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagenes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.grid-cards {
+  width: 100%;
+}
+
+/* banner */
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)), url(../../img/banner.avif);
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  height: 400px;
+}
+
+h2 {
+  font-size: 5vw;
+}
+
+p {
+  font-size: 2vw;
+}
+
+.text-color-ff {
+  color: white;
+}
+
+/* fin del banner */
+.sub-paquetes {
+  background-color: rgba(42, 23, 55, 0.9);
+  color: white;
+  text-align: center;
+}
+
+/* utilizando grid en loas parrafos */
+.con-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 1em;
+}
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 767px) {
+  .con-grid {
+    display: block;
+  }
+  .grid-one,
+  .grid-two {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+}
+/* estilos para pantallas medianas */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .grid-one,
+  .grid-two {
+    width: 100%;
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+  .grid-two {
+    margin-right: 0;
+  }
+}
+/* Estilos para pantallas grandes */
+@media screen and (min-width: 992px) {
+  .grid-one,
+  .grid-two {
+    width: 50%;
+    margin-right: 30px;
+    margin-bottom: 0;
+  }
+  .grid-two {
+    margin-right: 0;
+  }
+  .con-grid {
+    display: flex;
+  }
+}
+/* ===================================footer======================= */
+.img-one:hover, .img-two:hover, .img-three:hover {
+  box-shadow: 5px 5px 20px rgba(6, 6, 6, 0.4);
+  transform: translatey(-3%);
+}
+
+.grid-one, .grid-two {
+  background-color: rgba(77, 76, 78, 0.4);
+  text-align: center;
+  border: solid black 1px;
+}
+
+.link-wpp, .link-insta, .link-mail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* footer */
+footer {
+  background-color: rgba(77, 76, 78, 0.7);
+  color: white;
+  padding: 30px 0;
+}
+
+footer h3 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+footer p {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+.social-icons li {
+  margin: 0 10px;
+}
+
+@media (max-width: 767px) {
+  footer {
+    text-align: center;
+  }
+  .social-icons {
+    margin-top: 20px;
+    justify-content: center;
+  }
+  .col-md-6 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+.icono {
+  width: 30px;
+}
+
+.icono:hover {
+  transform: translatey(-10%);
+}
+
+/* ===============================PAGINA CONOCENOS================================= */
+/*conocenos style*/
+.mapa {
+  display: flex;
+  justify-content: center;
+}
+
+.p-conocenos {
+  margin: 0 2em;
+}
+
+.img-one:hover, .img-two:hover, .img-three:hover {
+  box-shadow: 5px 5px 20px rgba(6, 6, 6, 0.4);
+  transform: translatey(-3%);
+}
+
+.grid-one, .grid-two {
+  background-color: rgba(77, 76, 78, 0.4);
+  text-align: center;
+  border: solid black 1px;
+}
+
+.link-wpp, .link-insta, .link-mail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */

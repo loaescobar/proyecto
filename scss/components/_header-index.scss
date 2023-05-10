@@ -1,0 +1,29 @@
+@import "../base/listas";
+
+
+.color{
+    background-color:nth($colores-generales, 1 );
+    
+}
+.color-font{
+    color:nth($colores-generales, 2 );
+}
+
+.color-dropdown{
+    background-color:nth($colores-generales, 1 );
+
+}
+
+
+.color-boton{
+    background-color:nth($colores-generales, 1 );
+    color:nth($colores-generales, 2 );
+}
+
+.btn:hover{
+    color:nth($colores-generales, 2 );
+
+}
+.fondo-btn{
+    background-color: rgb(87, 87, 87);
+}

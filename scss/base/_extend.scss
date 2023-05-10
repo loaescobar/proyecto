@@ -1,0 +1,16 @@
+%cards-hover{
+    box-shadow: 5px 5px  20px rgba(6, 6, 6, 0.4);
+    transform: translatey(-3%);
+}
+
+%parrafos-grid{
+    background-color: rgba(77, 76, 78, 0.400);
+    text-align: center;
+    border: solid black 1px;
+}
+
+%dflex-iconos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
