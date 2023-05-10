@@ -24,56 +24,68 @@
 .grid-cards{
     width: 100%;
 }
+
+
 /* banner */
 .banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)),
     url(../../img/banner.avif);
-    background-position: center center;
-    background-repeat: no-repeat;
-    /* background-attachment: fixed; */
-    background-size: cover;
-    height: 400px;
+  @extend %banner;
+
+  div{
+
+    h2 {
+       
+      @extend %h2-banner
+        
+    }
+
+    p {
+
+      @extend %p-banner
+    }
+  }
+
 }
 
-h2 {
-    font-size: 5vw;
-}
 
-p {
-    font-size: 2vw;
-}
 
-.text-color-ff {
-    color: nth($colores-generales, 2 );
-    
-}
+
 /* fin del banner */
+section{
 
-.sub-paquetes{
-    background-color:nth($colores-generales, 1 );
-    color: nth($colores-generales, 2 );
-    text-align: center;
+  .sub-paquetes{
+      @extend %sub-paquetes;
+
+      p{
+
+        font-size: 2vw;
+        color: nth($colores-generales, 2 )
+      }
+  }
+
+  
 }
-
-/* utilizando grid en loas parrafos */
-
 .con-grid{
 
-    display: grid;
-    grid-template-columns: auto auto;
-    column-gap: 1em;
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 1em;
 
-}
+  
+  .grid-one{
+      @extend %parrafos-grid;
+  
+  }
 
-.grid-one{
+  .grid-two{
     @extend %parrafos-grid;
 
+   }
 
 }
-.grid-two{
-    @extend %parrafos-grid;
 
-}
+
 
 /* Estilos para dispositivos móviles */
 @media screen and (max-width: 767px) {

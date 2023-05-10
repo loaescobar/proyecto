@@ -1,0 +1,168 @@
+/* ================================salta================================ */
+@import "../base/extend";
+
+/* carrousel */
+.carousel-inner{
+    max-height: 20rem;
+}
+
+.banner-salta{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)),
+    url(../../img/salta1.jpg);
+    @extend %banner;
+
+    div{
+
+        h2 {
+           
+          @extend %h2-banner
+            
+        }
+    
+        p {
+    
+          @extend %p-banner
+        }
+      }
+
+}
+
+.formulario{
+    background-color: rgba(77, 76, 78, 0.400);
+    margin-bottom: 2em;
+}
+
+.lista-formulario{
+    background-color: white;
+    border-radius: 0.3rem;
+    padding: 0.3em;
+}
+
+/* ====================================jujuy=================================== */
+.carousel-inner{
+    max-height: 20rem;
+}
+
+.banner-jujuy{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)),
+    url(../../img/jujuy3.jpg);
+    @extend %banner;
+
+    div{
+
+        h2 {
+           
+          @extend %h2-banner
+            
+        }
+    
+        p {
+    
+          @extend %p-banner
+        }
+      }
+
+}
+/* ====================================mendoza=================================== */
+.carousel-inner{
+    max-height: 20rem;
+}
+
+.banner-mendoza{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)),
+    url(../../img/mendoza1.jpg);
+    @extend %banner;
+
+    div{
+
+        h2 {
+           
+          @extend %h2-banner
+            
+        }
+    
+        p {
+    
+          @extend %p-banner
+        }
+      }
+}
+
+
+/* ===============================cordoba=================================== */
+.carousel-inner{
+    max-height: 20rem;
+}
+
+.banner-cordoba{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)),
+    url(../../img/cordoba4.jpg);
+    @extend %banner;
+
+    div{
+
+        h2 {
+           
+          @extend %h2-banner
+            
+        }
+    
+        p {
+    
+          @extend %p-banner
+        }
+      }
+
+}
+
+/* ===============================santa cruz=================================== */
+.carousel-inner{
+    max-height: 20rem;
+}
+
+.banner-santacruz{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)),
+    url(../../img/santacruz1.jpg);
+    @extend %banner;
+
+    div{
+
+        h2 {
+           
+          @extend %h2-banner
+            
+        }
+    
+        p {
+    
+          @extend %p-banner
+        }
+      }
+
+}
+
+/* ===============================tierra del fuego=================================== */
+.carousel-inner{
+    max-height: 20rem;
+}
+
+.banner-tierradelfuego{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)),
+    url(../../img/tierradelfuego1.jpg);
+    @extend %banner;
+
+    div{
+
+        h2 {
+           
+          @extend %h2-banner
+            
+        }
+    
+        p {
+    
+          @extend %p-banner
+        }
+      }
+
+}

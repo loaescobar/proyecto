@@ -14,3 +14,26 @@
     align-items: center;
     justify-content: center;
 }
+
+%banner{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+%h2-banner{
+    font-size: 5vw;
+        color: nth($colores-generales, 2 );
+}
+
+%p-banner{
+    font-size: 2vw;
+        color: nth($colores-generales, 2 );
+}
+
+%sub-paquetes{
+    background-color: #2a1737;
+    color: white;
+    text-align: center;
+}
