@@ -36,7 +36,7 @@
 
     h2 {
        
-      @extend %h2-banner
+      @extend %h2-banner;
         
     }
 
@@ -51,10 +51,10 @@
 
 
 
-/* fin del banner */
 section{
 
   .sub-paquetes{
+
       @extend %sub-paquetes;
 
       p{
