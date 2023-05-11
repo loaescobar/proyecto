@@ -1,5 +1,10 @@
 @import "../base/listas";
 
+.logo:hover{
+    transform: scale(1.5);
+    transition-duration: 0.3s;
+}
+
 
 .color{
     background-color:nth($colores-generales, 1 );
@@ -21,6 +26,9 @@
 }
 
 .btn:hover{
+    transform: scale(1.1);
+    background-color:nth($colores-generales, 3 );
+    border: 1px solid white;
     color:nth($colores-generales, 2 );
 
 }
