@@ -295,7 +295,7 @@ section .sub-paquetes, .sub-paquetes {
 }
 
 .banner-salta {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)), url(../../img/salta1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)), url(../img/salta1.jpg);
 }
 .formulario {
   background-color: rgba(77, 76, 78, 0.4);
