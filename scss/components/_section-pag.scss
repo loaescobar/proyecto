@@ -15,13 +15,13 @@
 
         h2 {
            
-          @extend %h2-banner
+          @extend %h2-banner;
             
         }
     
         p {
     
-          @extend %p-banner
+          @extend %p-banner;
         }
       }
 
@@ -52,13 +52,13 @@
 
         h2 {
            
-          @extend %h2-banner
+          @extend %h2-banner;
             
         }
     
         p {
     
-          @extend %p-banner
+          @extend %p-banner;
         }
       }
 
@@ -77,13 +77,13 @@
 
         h2 {
            
-          @extend %h2-banner
+          @extend %h2-banner;
             
         }
     
         p {
     
-          @extend %p-banner
+          @extend %p-banner;
         }
       }
 }
@@ -103,13 +103,13 @@
 
         h2 {
            
-          @extend %h2-banner
+          @extend %h2-banner;
             
         }
     
         p {
     
-          @extend %p-banner
+          @extend %p-banner;
         }
       }
 
@@ -129,13 +129,13 @@
 
         h2 {
            
-          @extend %h2-banner
+          @extend %h2-banner;
             
         }
     
         p {
     
-          @extend %p-banner
+          @extend %p-banner;
         }
       }
 
@@ -155,14 +155,91 @@
 
         h2 {
            
-          @extend %h2-banner
+          @extend %h2-banner;
             
         }
     
         p {
     
-          @extend %p-banner
+          @extend %p-banner;
         }
       }
 
 }
+
+/* ====================================city tour=================================== */
+.carousel-inner{
+  max-height: 20rem;
+}
+
+.banner-citytour{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)),
+  url(../img/CIty_Tour.jpeg);
+  @extend %banner;
+
+  div{
+
+      h2 {
+         
+        @extend %h2-banner;
+          
+      }
+  
+      p {
+  
+        @extend %p-banner;
+      }
+    }
+}
+
+
+/* ====================================tigre=================================== */
+.carousel-inner{
+  max-height: 20rem;
+}
+
+.banner-tigre{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)),
+  url(../img/tigre.webp);
+  @extend %banner;
+
+  div{
+
+      h2 {
+         
+        @extend %h2-banner;
+          
+      }
+  
+      p {
+  
+        @extend %p-banner;
+      }
+    }
+}
+
+ /* ====================================mendoza=================================== */
+.carousel-inner{
+  max-height: 20rem;
+}
+
+.banner-rosedal{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)),
+  url(../../img/rosedalfinal2.jpg);
+  @extend %banner;
+
+  div{
+
+      h2 {
+         
+        @extend %h2-banner;
+          
+      }
+  
+      p {
+  
+        @extend %p-banner;
+      }
+    }
+}
+

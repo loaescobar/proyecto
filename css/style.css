@@ -59,19 +59,19 @@ li {
   justify-content: center;
 }
 
-.banner-tierradelfuego, .banner-santacruz, .banner-cordoba, .banner-mendoza, .banner-jujuy, .banner-salta, .banner {
+.banner-rosedal, .banner-tigre, .banner-citytour, .banner-tierradelfuego, .banner-santacruz, .banner-cordoba, .banner-mendoza, .banner-jujuy, .banner-salta, .banner {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
 }
 
-.banner-tierradelfuego div h2, .banner-santacruz div h2, .banner-cordoba div h2, .banner-mendoza div h2, .banner-jujuy div h2, .banner-salta div h2, .banner div h2 {
+.banner-rosedal div h2, .banner-tigre div h2, .banner-citytour div h2, .banner-tierradelfuego div h2, .banner-santacruz div h2, .banner-cordoba div h2, .banner-mendoza div h2, .banner-jujuy div h2, .banner-salta div h2, .banner div h2 {
   font-size: 5vw;
   color: white;
 }
 
-.banner-tierradelfuego div p, .banner-santacruz div p, .banner-cordoba div p, .banner-mendoza div p, .banner-jujuy div p, .banner-salta div p, .banner div p {
+.banner-rosedal div p, .banner-tigre div p, .banner-citytour div p, .banner-tierradelfuego div p, .banner-santacruz div p, .banner-cordoba div p, .banner-mendoza div p, .banner-jujuy div p, .banner-salta div p, .banner div p {
   font-size: 2vw;
   color: white;
 }
@@ -94,7 +94,7 @@ li {
 
 /* banner */
 .banner {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)), url(../../img/banner.avif);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)), url(../img/banner.avif);
 }
 section .sub-paquetes p {
   color: white;
@@ -162,19 +162,19 @@ section .sub-paquetes p {
   justify-content: center;
 }
 
-.banner-tierradelfuego, .banner-santacruz, .banner-cordoba, .banner-mendoza, .banner-jujuy, .banner-salta, .banner {
+.banner-rosedal, .banner-tigre, .banner-citytour, .banner-tierradelfuego, .banner-santacruz, .banner-cordoba, .banner-mendoza, .banner-jujuy, .banner-salta, .banner {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
 }
 
-.banner-tierradelfuego div h2, .banner-santacruz div h2, .banner-cordoba div h2, .banner-mendoza div h2, .banner-jujuy div h2, .banner-salta div h2, .banner div h2 {
+.banner-rosedal div h2, .banner-tigre div h2, .banner-citytour div h2, .banner-tierradelfuego div h2, .banner-santacruz div h2, .banner-cordoba div h2, .banner-mendoza div h2, .banner-jujuy div h2, .banner-salta div h2, .banner div h2 {
   font-size: 5vw;
   color: white;
 }
 
-.banner-tierradelfuego div p, .banner-santacruz div p, .banner-cordoba div p, .banner-mendoza div p, .banner-jujuy div p, .banner-salta div p, .banner div p {
+.banner-rosedal div p, .banner-tigre div p, .banner-citytour div p, .banner-tierradelfuego div p, .banner-santacruz div p, .banner-cordoba div p, .banner-mendoza div p, .banner-jujuy div p, .banner-salta div p, .banner div p {
   font-size: 2vw;
   color: white;
 }
@@ -266,19 +266,19 @@ footer div div div nav ul li .icono:hover {
   justify-content: center;
 }
 
-.banner-tierradelfuego, .banner-santacruz, .banner-cordoba, .banner-mendoza, .banner-jujuy, .banner-salta, .banner {
+.banner-rosedal, .banner-tigre, .banner-citytour, .banner-tierradelfuego, .banner-santacruz, .banner-cordoba, .banner-mendoza, .banner-jujuy, .banner-salta, .banner {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
 }
 
-.banner-tierradelfuego div h2, .banner-santacruz div h2, .banner-cordoba div h2, .banner-mendoza div h2, .banner-jujuy div h2, .banner-salta div h2, .banner div h2 {
+.banner-rosedal div h2, .banner-tigre div h2, .banner-citytour div h2, .banner-tierradelfuego div h2, .banner-santacruz div h2, .banner-cordoba div h2, .banner-mendoza div h2, .banner-jujuy div h2, .banner-salta div h2, .banner div h2 {
   font-size: 5vw;
   color: white;
 }
 
-.banner-tierradelfuego div p, .banner-santacruz div p, .banner-cordoba div p, .banner-mendoza div p, .banner-jujuy div p, .banner-salta div p, .banner div p {
+.banner-rosedal div p, .banner-tigre div p, .banner-citytour div p, .banner-tierradelfuego div p, .banner-santacruz div p, .banner-cordoba div p, .banner-mendoza div p, .banner-jujuy div p, .banner-salta div p, .banner div p {
   font-size: 2vw;
   color: white;
 }
@@ -314,7 +314,7 @@ section .sub-paquetes, .sub-paquetes {
 }
 
 .banner-jujuy {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)), url(../../img/jujuy3.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)), url(../img/jujuy3.jpg);
 }
 /* ====================================mendoza=================================== */
 .carousel-inner {
@@ -322,7 +322,7 @@ section .sub-paquetes, .sub-paquetes {
 }
 
 .banner-mendoza {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)), url(../../img/mendoza1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)), url(../img/mendoza1.jpg);
 }
 /* ===============================cordoba=================================== */
 .carousel-inner {
@@ -330,7 +330,7 @@ section .sub-paquetes, .sub-paquetes {
 }
 
 .banner-cordoba {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)), url(../../img/cordoba4.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)), url(../img/cordoba4.jpg);
 }
 /* ===============================santa cruz=================================== */
 .carousel-inner {
@@ -338,7 +338,7 @@ section .sub-paquetes, .sub-paquetes {
 }
 
 .banner-santacruz {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)), url(../../img/santacruz1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)), url(../img/santacruz1.jpg);
 }
 /* ===============================tierra del fuego=================================== */
 .carousel-inner {
@@ -346,7 +346,31 @@ section .sub-paquetes, .sub-paquetes {
 }
 
 .banner-tierradelfuego {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)), url(../../img/tierradelfuego1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)), url(../img/tierradelfuego1.jpg);
+}
+/* ====================================city tour=================================== */
+.carousel-inner {
+  max-height: 20rem;
+}
+
+.banner-citytour {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)), url(../img/CIty_Tour.jpeg);
+}
+/* ====================================tigre=================================== */
+.carousel-inner {
+  max-height: 20rem;
+}
+
+.banner-tigre {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)), url(../img/tigre.webp);
+}
+/* ====================================mendoza=================================== */
+.carousel-inner {
+  max-height: 20rem;
+}
+
+.banner-rosedal {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)), url(../../img/rosedalfinal2.jpg);
 }
 .img-one:hover, .img-two:hover, .img-three:hover {
   box-shadow: 5px 5px 20px rgba(6, 6, 6, 0.4);
@@ -365,19 +389,19 @@ section .sub-paquetes, .sub-paquetes {
   justify-content: center;
 }
 
-.banner, .banner-salta, .banner-jujuy, .banner-mendoza, .banner-cordoba, .banner-santacruz, .banner-tierradelfuego {
+.banner, .banner-salta, .banner-jujuy, .banner-mendoza, .banner-cordoba, .banner-santacruz, .banner-tierradelfuego, .banner-citytour, .banner-tigre, .banner-rosedal {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
 }
 
-.banner div h2, .banner-salta div h2, .banner-jujuy div h2, .banner-mendoza div h2, .banner-cordoba div h2, .banner-santacruz div h2, .banner-tierradelfuego div h2 {
+.banner div h2, .banner-salta div h2, .banner-jujuy div h2, .banner-mendoza div h2, .banner-cordoba div h2, .banner-santacruz div h2, .banner-tierradelfuego div h2, .banner-citytour div h2, .banner-tigre div h2, .banner-rosedal div h2 {
   font-size: 5vw;
   color: white;
 }
 
-.banner div p, .banner-salta div p, .banner-jujuy div p, .banner-mendoza div p, .banner-cordoba div p, .banner-santacruz div p, .banner-tierradelfuego div p {
+.banner div p, .banner-salta div p, .banner-jujuy div p, .banner-mendoza div p, .banner-cordoba div p, .banner-santacruz div p, .banner-tierradelfuego div p, .banner-citytour div p, .banner-tigre div p, .banner-rosedal div p {
   font-size: 2vw;
   color: white;
 }
